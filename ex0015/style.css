@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    background-color: bisque;
+}
+
+h1 {
+    font-family: fantasy;
+    color: brown;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+}
+
+p{
+    text-align: justify;
+    font-size: 18px;
+}

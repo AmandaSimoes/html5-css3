@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links em HTLM</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif; 
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        a {
+            color:rgb(151, 21, 32);
+            text-decoration: none;
+            
+        }
+
+        a:active {
+           color:black;
+        }
+
+        a:visited {
+            color:blue;
+            
+        }
+
+        a:hover {
+            color: blueviolet;
+            text-decoration: underline;
+        }
+
+        a::after {
+            content: "☂";
+        }
+
+        .especial::after {
+            content: " ⍟";
+            
+        }
+
+        .especial::before {
+            content: "⍟ ";
+        }
+
+        #paragrafo::before {
+            content: "↻";
+        }
+        
+
+        
+
+    </style>
+</head>
+<body>
+    <h1 id="paragrafo">Personalizando Links</h1>
+    <ul type="square">
+        <li class="principal"><a href="https://gustavoguanabara.github.io/" target="_blank" rel="external" class="especial">Canal GitHub</a> </li>
+        <li><a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank" rel="external" class="teste">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank" rel="external">Site Curso em Vídeo</a></li>
+    </ul>
+    
+</body>
+</html>

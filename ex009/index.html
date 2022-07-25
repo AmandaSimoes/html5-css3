@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Lista Ordenada</h2>
+    <ol>
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Fazer carinho nos pets</li>
+    </ol>
+    <h2>Lista Ordenada em Números Romanos</h2>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Fazer carinho nos pets</li>
+    </ol>
+    <h2>Lista Ordenada em Letras Maiusculas</h2>
+    <ol type="A">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Fazer carinho nos pets</li>
+    </ol>
+    <h2>Lista Ordenada em Letras Minusculas</h2>
+    <ol type="a">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Fazer carinho nos pets</li>
+    </ol>
+    <h2>Lista Ordenada Iniciando por Outro Número ou Letra que não seja 1 ou A</h2>
+    <ol type="1" start="3">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Fazer carinho nos pets</li>
+    </ol>
+<p><strong>É possível também fazer números romanos minusculos, mas acho que nem se usa assim rs </strong></p>
+
+<h2>Listas não Ordenadas</h2>
+<ul>
+    <li>Pão
+    <li>Queijo
+    <li>Feijão
+    <li>Arroz
+</ul>
+
+<ul type="circle" >
+    <li>Pão
+        <li>Queijo
+        <li>Feijão
+        <li>Arroz
+</ul>
+
+<ul type="square" >
+    <li>Pão
+        <li>Queijo
+        <li>Feijão
+        <li>Arroz
+</ul>
+    <p><strong>Conforme eu fiz nesse último exemplo a TAG LI não tem a necessidade de ser fechada, o que acontece é que o autopreenchimento já fecha a TAG automaticamente, então só não fecha quando tiver escrevendo manualmente. </strong></p>
+
+    <h2>Juntando Listas </h2>
+    <ol>
+       <li>Musicas que eu gostava
+           <ol type="A">
+              <li>Engenheiros do Havai</li> 
+               <li>Angra</li>
+               <li>Judas Prist</li>
+               <li>Iron Maiden</li>
+           </ol>
+       </li>
+       <li>Musicas que eu gosto hoje em dia
+           <ol type="A" start="5">
+               <li>Marina Sena</li>
+               <li>Rosa Neon</li>
+               <li>Jaloo</li>
+               <li>Sei lá, tô inventando coisa</li>
+           </ol>
+          </li>
+ 
+    </ol>
+
+    <p><strong>Note que o start esta numerico mesmo que a lista está em letras, não funcionaria se eu tivesse colocado a letra E no lugar</strong></p>
+
+    <h2>Segue um exemplo de lista ordenada com desordenada</h2>
+    <ol>
+        <li>Musicas que eu gostava
+            <ul type="square">
+                <li>Angra</li>
+                <li>Iron Maiden</li>
+                <li>Engenheiros do Havai</li>
+                <li>Judas Prist</li>
+            </ul>
+        </li>
+        <li>Músicas que eu gosto hoje em dia
+            <ul type="square">
+                <li>Marina Sena</li>
+                <li>Jaloo</li>
+                <li>Rosa Neon</li>
+            </ul>
+        </li>
+
+    </ol>
+</body>
+</html>

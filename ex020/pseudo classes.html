@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            height: 400px;
+            width: 200px;
+        }
+
+        div:hover {
+            background-color: yellow ;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: aliceblue;
+            background-color: rgba(0, 0, 255, 0.247);
+            
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div>01
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, excepturi voluptatum quas sed et vero voluptate perferendis nihil quam rem debitis fuga tempora pariatur amet non a explicabo repudiandae autem.</p>
+    </div>
+    <div>02
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur culpa nostrum voluptates quibusdam dolorem quia necessitatibus. Explicabo qui eveniet atque nemo dolores. Ipsam laudantium hic quasi magnam, blanditiis molestias nisi.</p>
+    </div>
+    <div>03
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nesciunt magnam nisi quo sed delectus itaque totam, consequuntur consequatur aut laboriosam, quasi explicabo consectetur eius sunt nihil ipsum error commodi.</p>
+    </div>
+
+</body>
+</html>
