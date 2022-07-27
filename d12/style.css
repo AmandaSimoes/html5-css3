@@ -25,7 +25,7 @@ html body {
 
 header {
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -41,7 +41,7 @@ header p {
 }
 
 a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bolder;
 }
@@ -64,13 +64,13 @@ section p {
 }
 
 section.normal {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
 }
 
 section.imagem {
     background-color: rgb(53, 53, 53);
-    color: white;
+    color: rgb(255, 255, 255);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.164);
     background-size: cover;
     background-attachment: fixed;
@@ -97,7 +97,7 @@ section#img02 {
 
 footer {
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
 }
